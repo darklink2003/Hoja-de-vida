@@ -1,0 +1,489 @@
+
+/*
+*CONTENEDORES QUE SE UTILIZARON  
+*/
+
+/*
+*CONTENEDOR #1 TINE LA PORTADA CON LA IMAGEN
+*/
+.subcontainer{
+    border: 8px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+    margin-top: 3%; 
+}
+/*
+*Color de fondo de los botones
+*/
+input{
+    background-color: #F1F9FB;
+}
+textarea{
+    background-color: #F1F9FB;
+}
+/*
+*CONTENEDOR #2 CONTINE EL CONTENIDO DE DATOS PERSONALES
+*/
+.subcontainer-2{
+    background-color: #F1F9FB;
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 0px 11px;
+    margin-top: 2%;
+    
+}
+
+/*
+*CONTENEDOR #3 CONTIENE LOS DATOS DE LA FROMACIÓN ACADÉMICA
+*/
+.subcontainer-3{
+    background-color: #F1F9FB;
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 0px 11px;
+    margin-top: 2%;
+}
+
+/*
+*CONTENEDOR #4 CONTIENE LA EXPERIENCIA LABORAL
+*/
+.subcontainer-4{
+    background-color: #F1F9FB;
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 0px 11px;
+    margin-top: 2%;
+}
+
+/*
+*CONTIENE EL TIEMPO TOTAL DE LA EXPERIENCIA
+*/
+.subcontainer-md-5{
+    background-color: #F1F9FB;
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black; 
+    margin-top: 2%;
+}
+
+/*
+*ESTA CONTENEDOR ESTA DISEÑADA PARA LA FIRMA DEL SERVIDO PUBLICO Y DEL CONTRATISTA
+*/
+.subcontainer-6{
+    background-color: #F1F9FB;
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black; 
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+}
+
+/*
+*ESTE CONTENEDOR ESTA PARA LAS OBSERVACIONES DEL DEJE
+*/
+.subcontainer-md-7{
+    background-color: #F1F9FB;
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black; 
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+}
+
+/*
+*AJUSTES DEL CONTENEDOR #1
+*/
+/* TAMAÑO DE LA IMAGEN CONTENEDOR #1 */
+.Escudo{
+    width: 30%;
+     
+}
+/* ALINEACION DE TEXTO */
+.col-lg{
+    text-align: center;
+}
+/* AJUSTES PARA EL INPUT */
+#boton{
+    background-color: white;
+    width: 60%;
+    position: relative;
+    left: 16%;
+    margin-bottom: 10%;
+}
+/* AJUSTES DE LA LETRA */
+.p{
+    font-size: 12px;
+    position: relative;
+    top: 10px; 
+}
+
+/*
+*AJUSTES DE LAS ETIQUETAS 
+*/
+/* MARGEN DE LA ETIQUETA */
+.etiqueta{
+    display: flex;
+    margin-top: 2%;
+}
+/* TAMAÑO Y DISEÑO DEL NUMERO DE LA ETIQUETA */
+.number{
+    background-color: black;
+    border-radius: 50%;
+    color:white;
+    width: auto; 
+    text-align: center;
+    padding: 0px 10px;
+}
+/* TAMAÑO Y DISEÑO DEL TEXTO DE LA ETIQUETA */
+.text
+{
+    background-color: black;
+    border-radius: 15px;
+    color:white;
+    width: auto; 
+    text-align: center;
+    position: relative;
+    left: 1%;
+    padding: 0px 10px;
+    
+}
+
+/*
+*DISEÑO DEL DATO INTERNO DEL CONTENEDOR #1
+*/
+/* DISEÑO DE LA FILA #1 Y LAS COLUMNAS */
+#dacol1{
+    background-color: #F1F9FB;
+    border: 1px solid black;
+    border-right: none;
+}
+#dacol2{
+    background-color: #F1F9FB;
+    border: 1px solid black;
+    border-right: none;
+}
+#dacol3{
+    background-color: #F1F9FB;
+    border: 1px solid black;
+}
+
+/*
+*AJUSTES ADICIONALES PARA DEL CONTENEDOR #1 
+*/
+#mover{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#pais{
+    border: none; 
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+    width: 30%;
+}
+#ajustes{
+
+    border: none; 
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 30%;
+    font-display: 1px;
+}
+#ajusancho{
+
+    border: none; 
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 38%;
+    font-display: 1px;
+}
+#tiempo{
+    width: 15%;
+}
+
+/*
+*DISEÑO Y CONTENIDO DEL CONTENEDOR #2
+*/
+/* DISEÑO DE LA FILA #1 DEL CONTENEDOR #2 */
+.subsubcontainer{
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:1%;
+    border-radius: 10px;
+    border: 2px solid black; 
+    padding: 0px 11px;
+}
+#titleacademi{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+#titleacademi1{
+    background-color: #D9F0F6;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+#subtitleacademi{
+    background-color: #D9F0F6;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+#textoacademi{
+    background-color: #F1F9FB;
+    border: 1px solid black;
+    border-left: none;
+    padding: 2px;
+
+}
+#fechacademi{
+ 
+    margin-top: 0.5%;
+    width: 20%;
+    height: 25px;
+}
+#border{
+    background-color: #F1F9FB;
+    border-top: 1px solid black;
+}
+/* DISEÑO DE LA FILA #2 DEL CONTENEDOR #2 */
+
+.lineaT1{
+    border: 1px solid black;
+
+}
+.lineaT2{
+    border: 1px solid black;
+
+}
+#arriba{
+    background-color: #D9F0F6;
+    border: 1px solid black;
+
+}
+#nova{
+    background-color: white;
+    border: 1px solid black;
+
+}
+.SI{
+    border-right: 1px solid black;
+}
+.MES{
+    border-right: 1px solid black;
+}
+
+.terminacion p {
+    position: relative;
+}
+.terminacion p::after {
+    content: '';
+    position: absolute;
+    bottom: 0px; /* Ajusta según sea necesario */
+    left: -7%;
+    width: 114%;
+    border-bottom: 1px solid black; /* Grosor y color del borde */
+}
+
+
+.GRADUADO p {
+    position: relative;
+}
+.GRADUADO p::after {
+    content: '';
+    position: absolute;
+    bottom: 0px; /* Ajusta según sea necesario */
+    left: -15%;
+    width: 130%;
+    border-bottom: 1px solid black; /* Grosor y color del borde */
+}
+
+
+
+/* DISEÑO DE LA FILA #3 DEL CONTENDDOR #2 */
+.subidioma{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    padding: 0px 11px;
+    
+}
+
+/*
+*CODIGO DE LA TABLA QUE HAY EN LA FINA #3 
+*LOS DATOS IMPORTANTE DE ESTA TABLA SON TODO LOS QUE ESTAN ACONTINUACION
+*POR LO MISMO SE RECOMIENDA NO TOCAR SI NO LO PUEDES ENTENDER
+*/
+#generalcol{
+    border-top: 1px solid black;
+}
+#hablantes{
+    background-color: #D9F0F6;
+}
+#general1{
+    border: 1px solid black;
+    background-color: #D9F0F6;
+    border-bottom: none;
+    border-right: none;
+}
+#general{
+    border: 1px solid black;
+    border-bottom: none;
+    border-right: none;
+}
+
+#colgeneral{
+    background-color: #D9F0F6;  
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    padding: 0px 11px;
+}
+
+/* lEER COMENTARIO ANTERIOR */
+
+
+
+/* 
+*CONTENEDOR #4 
+*/
+/* ENUNCIADOS DE LA EXPERIENCIA LABORAL */
+#subtitle{
+    background-color: #D9F0F6;
+    border: 1px solid black;
+    text-align: center;
+    border-top: none;
+}
+#title{
+    border: 1px solid black; 
+    text-align: center;
+}
+/*
+*COLUMAS DE LA EXPERIENCIA LABORAL FILAS Y COLUMNAS
+*/
+#excol1{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+#excol2{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+#excol3{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+#excol4{
+    border: 1px solid black;
+    border-top: none;
+}
+/*
+*MODIFICACION DE LAS FILAS Y LA COLUMNAS DE LA FILA #1 CONTENEDOR #4
+*/
+#excol01{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+}
+#excol02{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+#excol03{
+    border: 1px solid black;
+    border-top: none;
+    padding: 5px;
+}
+/*
+*DISEÑO DE EL CONTENEDOR #5
+*/
+.tablaTime-md{
+    margin: 3% 8% 2% 8%;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0px 11px;
+    
+}
+#ocupaciontop{
+    background-color: #D9F0F6;
+}
+#tatime1{
+    background-color: #D9F0F6;
+    border: 1px solid black;
+    border-right: none;
+    border-bottom: none;
+}
+#tatime{
+    border: 1px solid black;
+    border-right: none;
+    border-bottom: none;
+}
+#tatime01{
+    border-top: 1px solid black;
+    
+}
+#tatime02{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-top-right-radius: 12px;
+    
+}
+.texttime{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+/*
+*DISEÑO DE EL CONTENEDOR #6
+*/
+.texfir{
+    margin-top: 2%;
+    margin-left: 1%;
+}
+#motexfir{
+    border: none;
+    width: 45%;
+    border-bottom: 1px solid black;
+    margin-left: 25%;
+}
+.motexfir01{
+    text-align: center; 
+}
+
+/*
+*DISEÑO DE EL CONTENEDOR #7
+*/
+/* CAJA DE COMENTARIOS */
+#comentario{
+    width: 95%; 
+    height: 150px;
+    margin: 2%; 
+    border-radius: 15px;
+
+}
+#firma {
+    border: none;
+    width: 45%;
+    border-bottom: 1px solid black;
+    margin-left: 2%;
+}
+.moverTexto{
+    margin-left: 50%;
+    margin-top: -3%;
+}
+.moverTexto1{
+    margin-left: 2%;
+
+}
